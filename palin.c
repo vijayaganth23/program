@@ -6,7 +6,7 @@ int main()
  printf("\nEnter the number:");
  scanf("%d",&num);
  n=num;
- while(n>0)
+ while(num>0)
  {
   rem=num%10;
   sum=sum*10+rem;
