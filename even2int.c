@@ -5,7 +5,7 @@ int main()
  printf("\nEnter the value of N:");
  scanf("%d",&n);
  i=2;
- while(n>i)
+ while(n>=i)
  {
   printf("%d ",i);
   i=i+6;
