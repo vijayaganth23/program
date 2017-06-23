@@ -4,7 +4,7 @@ int main()
  int num,revno,rem;
  scanf("%d",&num);
  revno=0;
- while(num>=0)
+ while(num>0)
  {
   rem=num%10;
   revno=revno*10+rem;
