@@ -4,9 +4,9 @@ int main()
  int i,j,flag,start,end;
  scanf("%d",&start);
  scanf("%d",&end);
- if(start%2!=0)
- {
- for(i=start;i<=end;i=i+2)
+ if(start%2==0)
+   start++;
+  for(i=start;i<=end;i=i+2)
  {
   flag=0;  
   for(j=3;j<i;j=j+2)
@@ -17,6 +17,5 @@ int main()
    if(flag==0)
     printf("\n%d",i);
   }
- }
-  retrun 0;
+   retrun 0;
  } 
