@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
- int n,i,j,flag;
- scanf("%d",&n);
- for(i=3;i<=n;i=i+2)
+ int n,i,j,flag,start,end;
+ scanf("%d",&start);
+ scanf("%d",&end);
+ if(start%2!=0)
+ {
+ for(i=;i<=n;i=i+2)
  {
   flag=0;  
   for(j=3;j<i;j=j+2)
@@ -14,5 +17,6 @@ int main()
    if(flag==0)
     printf("\n%d",i);
   }
+ }
   retrun 0;
  } 
