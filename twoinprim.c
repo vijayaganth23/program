@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
- int n,i,j,flag,start,end;
+ int i,j,flag,start,end;
  scanf("%d",&start);
  scanf("%d",&end);
  if(start%2!=0)
  {
- for(i=;i<=n;i=i+2)
+ for(i=start;i<=end;i=i+2)
  {
   flag=0;  
   for(j=3;j<i;j=j+2)
